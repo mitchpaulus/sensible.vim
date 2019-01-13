@@ -31,3 +31,7 @@ color13     #FF00FF
 color14     #00FF80
 color15     #F3F4F5
 ```
+
+What it looks like for me:
+
+![screenshot](2019-01-12-211844_1366x768_scrot.png)
