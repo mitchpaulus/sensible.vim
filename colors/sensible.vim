@@ -1,5 +1,7 @@
-set background=dark
+
 highlight clear
+let colors_name = "sensible"
+set background=dark
 
 " Reminder of default colors
 " 0 = black
@@ -13,7 +15,7 @@ highlight clear
 
 highlight Normal ctermfg=7 ctermbg=NONE
 
-highlight LineNr ctermfg=1 ctermbg=NONE
+highlight LineNr ctermfg=8 ctermbg=NONE
 highlight clear CursorLineNr
 highlight link CursorLineNr LineNr
 
@@ -34,3 +36,9 @@ highlight clear SpellRare
 highlight link SpellRare SpellBad
 
 highlight Search ctermfg=0 ctermbg=3
+
+highlight String ctermfg=3 ctermbg=NONE
+highlight Statement ctermfg=4 ctermbg=NONE
+
+" Git commit
+highlight link gitcommitSummary Normal
